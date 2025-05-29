@@ -6,11 +6,146 @@
     <title>WINNOVA – Intelligente Wett- & Terminalsysteme</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script defer src="https://unpkg.com/lucide@latest"></script>
-    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
 </head>
+
 <body class="bg-gray-100 text-gray-800">
-<!-- Hinweis: Vollständiger HTML-Inhalt wird beim Export ersetzt -->
-<!-- Hier wäre der vollständige Website-Code -->
+    <header class="bg-blue-700 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">WINNOVA</h1>
+            <nav class="hidden md:flex space-x-4">
+    <a href="#start" class="hover:underline">Start</a>
+    <a href="#software" class="hover:underline">Software</a>
+    <a href="#hardware" class="hover:underline">Terminals</a>
+    <a href="#branchen" class="hover:underline">Branchen</a>
+    <a href="#erfolge" class="hover:underline">Erfolge</a>
+    <a href="#sicherheit" class="hover:underline">Sicherheit</a>
+    <a href="#ueberuns" class="hover:underline">Über uns</a>
+    <a href="#kontakt" class="hover:underline">Kontakt</a>
+</nav>
+
+<!-- Mobile toggle button -->
+<button id="mobile-menu-toggle" class="md:hidden text-white focus:outline-none">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+</button>
+
+<!-- Mobile navigation -->
+<div id="mobile-menu" class="md:hidden hidden flex-col space-y-2 mt-4 bg-blue-600 rounded px-4 py-2">
+  <a href="#start" class="block text-white hover:underline">Start</a>
+  <a href="#software" class="block text-white hover:underline">Software</a>
+  <a href="#hardware" class="block text-white hover:underline">Terminals</a>
+  <a href="#branchen" class="block text-white hover:underline">Branchen</a>
+  <a href="#erfolge" class="block text-white hover:underline">Erfolge</a>
+  <a href="#sicherheit" class="block text-white hover:underline">Sicherheit</a>
+  <a href="#ueberuns" class="block text-white hover:underline">Über uns</a>
+  <a href="#kontakt" class="block text-white hover:underline">Kontakt</a>
+</div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
+        <section id="start" class="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20 px-6 sm:px-12 rounded-xl shadow-lg" data-aos="fade-up">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-5xl md:text-6xl font-extrabold text-blue-800 mb-6">Willkommen bei <span class="text-yellow-400">WINNOVA</span></h2>
+    <p class="text-xl md:text-2xl leading-relaxed mb-8 text-gray-700">Die Plattform für intelligente Wett&shy;- &shy; Terminal&shy;systeme – leistungsstark, sicher und individuell anpassbar.</p>
+    <a href="#kontakt" class="inline-block bg-yellow-400 text-blue-900 font-semibold px-8 py-4 text-lg rounded-full shadow-lg hover:bg-yellow-300 transition">Jetzt Kontakt aufnehmen</a>
+  </div>
+</section>
+
+        <section id="software" class="relative overflow-hidden bg-gradient-to-br from-yellow-50 via-white to-yellow-50 py-16 px-6 sm:px-12 rounded-xl shadow-md" data-aos="fade-up">
+            <div class="w-full h-64 bg-gray-200 rounded mb-4 flex items-center justify-center text-gray-500 text-sm italic">Bild folgt</div>
+            <h2 class="text-2xl font-bold text-blue-700 mb-4 flex items-center gap-3"><i data-lucide="code" class="w-5 h-5"></i>Unsere Softwarelösungen</h2>
+            <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                <li><strong>Live-Wetten:</strong> Echtzeitdaten, dynamische Quoten, automatische Ergebnisverarbeitung.</li>
+                <li><strong>Prematch-Wetten:</strong> Große Auswahl an Sportarten und Wettoptionen mit intuitivem Interface.</li>
+                <li><strong>Virtuelle Spiele:</strong> Fußball, Pferde- und Hunderennen mit animierter Darstellung.</li>
+                <li><strong>Backend-Portal:</strong> Vollständige Kontrolle über Ihre Wettplattform – auch mobil.</li>
+            </ul>
+        </section>
+
+        <section id="hardware" class="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-blue-100 py-16 px-6 sm:px-12 rounded-xl shadow-md" data-aos="fade-up">
+            <div class="w-full h-64 bg-gray-200 rounded mb-4 flex items-center justify-center text-gray-500 text-sm italic">Bild folgt</div>
+            <h2 class="text-2xl font-semibold mb-2 flex items-center gap-2"><i data-lucide="monitor" class="w-5 h-5"></i>Unsere Terminals</h2>
+            <ul class="list-disc pl-5 space-y-2">
+                <li><strong>WINNOVA Terminal 24:</strong> SB-Terminal mit Touchscreen, TITO und QR-Code-Leser für nahtlose Bedienung.</li>
+                <li><strong>WINNOVA Terminal 36:</strong> VLT-Terminal für elektronische Casinospiele inklusive integriertem Jackpot.</li>
+            </ul>
+        </section>
+
+        <section id="branchen" class="relative overflow-hidden bg-gradient-to-br from-yellow-50 via-white to-yellow-50 py-16 px-6 sm:px-12 rounded-xl shadow-md" data-aos="fade-up">
+            <div class="w-full h-64 bg-gray-200 rounded mb-4 flex items-center justify-center text-gray-500 text-sm italic">Bild folgt</div>
+            <h2 class="text-2xl font-semibold mb-2 flex items-center gap-2"><i data-lucide="briefcase" class="w-5 h-5"></i>Branchen & Einsatzbereiche</h2>
+            <p>Unsere Lösungen sind ideal für:</p>
+            <ul class="list-disc pl-5 space-y-2">
+                <li>Wettbüros & Shops</li>
+                <li>Spielhallen & Casinos</li>
+                <li>Tankstellen & Kioske</li>
+                <li>Online-Betreiber & White-Label-Anbieter</li>
+            </ul>
+        </section>
+
+        <section id="erfolge" class="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-blue-100 py-16 px-6 sm:px-12 rounded-xl shadow-md" data-aos="fade-up">
+            <div class="w-full h-64 bg-gray-200 rounded mb-4 flex items-center justify-center text-gray-500 text-sm italic">Bild folgt</div>
+            <h2 class="text-2xl font-semibold mb-2 flex items-center gap-2"><i data-lucide="bar-chart" class="w-5 h-5"></i>Unsere Erfolge</h2>
+            <ul class="list-disc pl-5 space-y-2">
+                <li><strong>7.500+</strong> aktive Terminals in Europa</li>
+                <li><strong>99,9 %</strong> Systemverfügbarkeit im Jahr 2024</li>
+                <li><strong>350+</strong> Geschäftskunden weltweit</li>
+            </ul>
+        </section>
+
+        <section id="sicherheit" class="relative overflow-hidden bg-gradient-to-br from-yellow-100 via-white to-yellow-200 py-16 px-6 sm:px-12 rounded-xl shadow-md" data-aos="fade-up">
+            <div class="w-full h-64 bg-gray-200 rounded mb-4 flex items-center justify-center text-gray-500 text-sm italic">Bild folgt</div>
+            <h2 class="text-2xl font-semibold mb-2 flex items-center gap-2"><i data-lucide="shield-check" class="w-5 h-5"></i>Technologie & Sicherheit</h2>
+            <ul class="list-disc pl-5 space-y-2">
+                <li>GLI-zertifizierte Lösungen (GLI19, GLI14)</li>
+                <li>DSGVO-konforme Datenverarbeitung</li>
+                <li>Ende-zu-Ende-Verschlüsselung & 2FA</li>
+            </ul>
+        </section>
+
+        <section id="ueberuns" class="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-blue-100 py-16 px-6 sm:px-12 rounded-xl shadow-md" data-aos="fade-up">
+            <div class="w-full h-64 bg-gray-200 rounded mb-4 flex items-center justify-center text-gray-500 text-sm italic">Bild folgt</div>
+            <h2 class="text-2xl font-semibold mb-2 flex items-center gap-2"><i data-lucide="users" class="w-5 h-5"></i>Über uns</h2>
+            <p>Seit 2016 entwickelt unser Team aus Experten leistungsstarke Wett- und Terminalsysteme für internationale Kunden. Wir stehen für Qualität, Innovation und partnerschaftliche Zusammenarbeit.</p>
+        </section>
+
+        <section id="kontakt" class="relative overflow-hidden bg-gradient-to-br from-yellow-100 via-white to-yellow-200 py-20 px-6 sm:px-12 rounded-xl shadow-md" data-aos="fade-up">
+  <div class="max-w-2xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-blue-700 mb-6 flex justify-center items-center gap-2">
+      <i data-lucide="mail" class="w-6 h-6"></i>Kontaktieren Sie uns
+    </h2>
+    <p class="text-gray-600 mb-8">Sie haben Fragen oder möchten mehr über unsere Lösungen erfahren? Schreiben Sie uns einfach über das Kontaktformular.</p>
+  </div>
+  <form class="grid grid-cols-1 gap-4 max-w-2xl mx-auto bg-white p-6 rounded-xl shadow">
+    <input type="text" placeholder="Ihr Name" class="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+    <input type="email" placeholder="Ihre E-Mail" class="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+    <textarea placeholder="Ihre Nachricht" class="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+    <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition font-semibold">Nachricht senden</button>
+  </form>
+</section>
+    </main>
+
+    <footer class="bg-blue-900 text-white mt-16 py-6 text-center text-sm">
+        <p>&copy; 2025 WINNOVA Plattform. Alle Rechte vorbehalten.</p>
+        <p><a href="#" class="underline hover:text-blue-300">Impressum</a> | <a href="#" class="underline hover:text-blue-300">Datenschutz</a></p>
+    </footer>
+
+    <script>
+  window.addEventListener('DOMContentLoaded', () => {
+    lucide.createIcons();
+    AOS.init();
+  });
+</script>
+<script>
+  document.getElementById('mobile-menu-toggle').addEventListener('click', () => {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+  });
+</script>
 </body>
 </html>
