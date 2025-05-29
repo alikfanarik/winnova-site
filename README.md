@@ -5,4 +5,4 @@ Bereitgestellt über GitHub Pages.
 
 ## Vorschau
 ➡️ Nach dem Upload wird die Seite erreichbar unter:
-https://<dein-github-benutzername>.github.io/<repo-name>/
+[https://<dein-github-benutzername>.github.io/<repo-name>/](https://alikfanarik.github.io/winnova-site/)
